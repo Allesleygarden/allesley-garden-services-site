@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allesley Garden Services - Planting & Maintenance</title>
+<!-- Load Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Load Lucide Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+<style>
+/* Custom styles for aesthetic font and subtle background texture */
+body {
+font-family: 'Inter', sans-serif;
+background-color: #f0fdf4; /* A very light minty green */
+}
+.container-shadow {
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.section-header {
+border-bottom: 3px solid #10b981; /* Emerald-500 */
+}
+</style>
+</head>
+<body>
+<!-- Navigation (Simple for a single-page site) -->
+<nav class="bg-white container-shadow sticky top-0 z-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+<div class="text-2xl font-extrabold text-green-700 tracking-wider">
+Allesley Garden Services
+</div>
+<div class="space-x-4">
+<a href="#services" class="text-gray-600 hover:text-green-600 transition duration-150">Services</a>
+<a href="#about" class="text-gray-600 hover:text-green-600 transition duration-150">About</a>
+<a href="#contact" class="px-3 py-1 bg-green-600 text-white rounded-lg hover:bg-green-700 transition duration-150 shadow-md">Contact</a>
+</div>
+</div>
+</nav>
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-16">
+
+<!-- Hero Section -->
+<header class="text-center py-16 bg-white rounded-3xl container-shadow">
+<h1 class="text-5xl md:text-6xl font-extrabold text-green-800 tracking-tight leading-snug">
+Cultivating Beauty, Naturally.
+</h1>
+<p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto">
+Your dedicated **gardening service** in the Allesley area for all planting, care, and maintenance needs.
+</p>
+<a href="#services" class="mt-8 inline-block px-8 py-3 bg-indigo-600 text-white text-lg font-semibold rounded-xl hover:bg-indigo-700 transition duration-300 transform hover:scale-105 shadow-xl">
+Explore Our Services
+</a>
+</header>
+
+<!-- Services Section -->
+<section id="services" class="space-y-10">
+<h2 class="text-4xl font-bold text-center text-green-700 pb-3 section-header">
+Comprehensive Gardening Services
+</h2>
+
+<!-- Service Categories Grid: Now designed for 3 cards, wrapping on smaller screens -->
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+<!-- Planting Services Card -->
+<div class="bg-white p-8 rounded-2xl container-shadow hover:shadow-2xl transition duration-300 border-t-4 border-green-500">
+<div class="flex items-center space-x-3 mb-4 text-green-600">
+<i data-lucide="leaf" class="w-7 h-7"></i>
+<h3 class="text-3xl font-bold">Planting Services</h3>
+</div>
+<p class="text-gray-700 space-y-4 leading-relaxed">
+We expertly handle all floral and structural planting needs. This includes installing **flowers, shrubs, and ornamental plants** chosen for year-round appeal, alongside professional **tree planting and care** for lasting shade. We also design and plant custom **vegetable and herb gardens**. Finally, we offer **seasonal planting updates** to keep your space vibrant throughout the year.
+</p>
+</div>
+
+<!-- Lawn Care & Mowing Card -->
+<div class="bg-white p-8 rounded-2xl container-shadow hover:shadow-2xl transition duration-300 border-t-4 border-amber-500">
+<div class="flex items-center space-x-3 mb-4 text-amber-600">
+<i data-lucide="scissors" class="w-7 h-7"></i>
+<h3 class="text-3xl font-bold">Lawn Care & Mowing</h3>
+</div>
+<p class="text-gray-700 space-y-4 leading-relaxed">
+We offer complete **lawn mowing, trimming, and edging** for a clean, polished look. Our service includes comprehensive **seasonal lawn care** adjustments to meet your lawn's changing needs throughout the year. This ensures optimal health and aesthetics from spring clean-up through autumn leaf removal.
+</p>
+</div>
+
+<!-- Maintenance & Cleanup Card -->
+<div class="bg-white p-8 rounded-2xl container-shadow hover:shadow-2xl transition duration-300 border-t-4 border-indigo-500">
+<div class="flex items-center space-x-3 mb-4 text-indigo-600">
+<i data-lucide="flower" class="w-7 h-7"></i>
+<h3 class="text-3xl font-bold">Maintenance & Cleanup</h3>
+</div>
+<p class="text-gray-700 space-y-4 leading-relaxed">
+Keep your garden pristine with our routine and remedial services. We offer **expert hedge and tree trimming** to ensure healthy growth and shape. Our **seasonal services** cover tasks like spring clean-ups and leaf removal, while **thorough cleanups** tackle debris and overgrown areas, restoring your garden to its best.
+</p>
+</div>
+</div>
+</section>
+
+<!-- About Ade Section -->
+<section id="about" class="bg-white p-8 md:p-12 rounded-2xl container-shadow">
+<h2 class="text-4xl font-bold text-center text-indigo-700 pb-3 section-header mb-8">
+Meet Your Gardener, Ade
+</h2>
+<div class="max-w-3xl mx-auto text-lg text-gray-700 space-y-4">
+<p>Hey there! I'm Ade, and honestly, gardening isn't just a job for me—it's my absolute **passion**. I'm all about helping you create an outdoor space that looks gorgeous but is also super healthy and sustainable.</p>
+<p>Want to know a fun fact? I even get to volunteer my skills at the amazing, historic Elizabethan and Edwardian gardens at **Kenilworth Castle**! Talk about pressure to keep things perfect!</p>
+<p>Since this is a **dedicated gardening service**, I ensure you always get a personal touch. I handle every project myself across the Allesley area. I genuinely believe every garden has its own unique personality, and I approach each job with tons of care, creativity, and real focus.</p>
+<p>Whether you just need reliable, regular maintenance, a full garden makeover, or just a bit of pro advice to help your plants **thrive**, I'm ready to jump in and help you every step of the way! Let's get your outdoor space looking its best.</p>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="text-center py-10 bg-green-600 rounded-2xl text-white container-shadow">
+<h2 class="text-4xl font-extrabold mb-4">Ready to Transform Your Garden?</h2>
+<p class="text-xl mb-6">Get in touch today for a free consultation and estimate.</p>
+
+<!-- Contact Form Container -->
+<div class="max-w-xl mx-auto p-6 md:p-8 bg-white text-gray-800 rounded-xl shadow-xl mb-8">
+<h3 class="text-2xl font-semibold mb-6 text-green-700">Send Us a Message</h3>
+<form action="#" method="POST" class="space-y-4 text-left">
+<!-- Name -->
+<div>
+<label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+<input type="text" id="name" name="name" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm p-3 focus:border-indigo-500 focus:ring-indigo-500 border">
+</div>
+<!-- Email -->
+<div>
+<label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+<input type="email" id="email" name="email" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm p-3 focus:border-indigo-500 focus:ring-indigo-500 border">
+</div>
+<!-- Message -->
+<div>
+<label for="message" class="block text-sm font-medium text-gray-700">Your Gardening Needs (Tell us about your project!)</label>
+<textarea id="message" name="message" rows="4" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm p-3 focus:border-indigo-500 focus:ring-indigo-500 border"></textarea>
+</div>
+<!-- Submit Button -->
+<div>
+<button type="submit" class="w-full py-3 px-4 border border-transparent rounded-xl shadow-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150">
+Submit Inquiry
+</button>
+</div>
+<p class="text-xs text-center text-gray-500 mt-3">Note: This is a front-end form template. To receive messages, you would connect this form to a backend service.</p>
+</form>
+</div>
+
+<!-- Existing Contact Info (moved below form) -->
+<p class="text-2xl font-semibold mt-8 mb-4">Or Call/Email Us Directly:</p>
+<div class="space-y-2">
+<p class="text-lg flex items-center justify-center">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M22 16.92v3a2 2 0 0 1-2 2h-3.41A16.92 16.92 0 0 1 3 13.41V10a2 2 0 0 1 2-2h3.41A16.92 16.92 0 0 1 12 3"/></svg>
+<a href="tel:07951863399" class="hover:text-gray-200 transition duration-150">07951 863399</a>
+</p>
+<p class="text-lg flex items-center justify-center">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+<a href="mailto:allesleygardenservices@gmail.com" class="hover:text-gray-200 transition duration-150">allesleygardenservices@gmail.com</a>
+</p>
+</div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-6 mt-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+&copy; 2025 Allesley Garden Services. All Rights Reserved.
+</div>
+</footer>
+<script>
+lucide.createIcons();
+</script>
+</body>
+</html>
